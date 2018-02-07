@@ -1,29 +1,36 @@
-<!DOCTYPE html><html><head>
-
-<title>Calculator</title><meta charset="utf-8">
-
-<script type="text/javascript">
-
-function cube() {
-
-var num = document.getElementById("n1");
-
-num.value = Math.pow(num.value, 3);
-
-}
-
-</script>
-
-</head>
-
-<body>
-<h1>Calculadora de Enrique gamas Bermejo</h1>
-Number:
-
-<input type="text" id="n1"><p>
-
-<button onclick="cube()"> x^3 </button>
-
-</body>
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <meta charset="utf-8">
+            <script type="text/javascript">
+                function cube() {
+                    var num = document.getElementById("n1");
+                    num.value = Math.pow(num.value, 3);
+                }                
+                function sin() {
+                    var num = document.getElementById("n1");
+                    num.value = Math.sin(num.value);
+                }
+            </script>
+        </meta>
+    </head>
+    <body>
+        <h1>
+            Calculadora de Enrique gamas Bermejo
+        </h1>
+        Number:
+        <input id="n1" type="text">
+            <p>
+                <button onclick="cube()">
+                    x^3
+                </button>
+                <button onclick="sin()">
+                    sin
+                </button>
+            </p>
+        </input>
+    </body>
 </html>
