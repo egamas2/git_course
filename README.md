@@ -1,5 +1,5 @@
 
-“Primer fichero en el primer repositorio de <Enrique Gamas Bermejo>”
+Primer fichero en el primer repositorio de Enrique Gamas Bermejo
 
 # my_repo
 
